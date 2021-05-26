@@ -1,5 +1,5 @@
 {
-  "name": "~TODO~",
+  "name": "pinguedia",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
