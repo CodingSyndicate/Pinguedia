@@ -1,22 +1,18 @@
 <script>
-	import Penguin from './Penguin.svelte';
-
 	export let url;
-	export let numberOfPenguins;
 </script>
 
-<a href={url}>
-	<div class="iceFloeContainer">
-		{#each Array(numberOfPenguins) as _, i}
-			<Penguin />
-		{/each}
-	</div>
-	<img src="/eisscholle1.png" />
+<a class="iceFloeContainer" href={url}>
+	<img class="schollenImg" src="/schollen/{url}.png" />
 </a>
 
 <style>
 	.iceFloeContainer {
-		display: flex;
-		flex-direction: row;
+		width: 100%;
+		height: 100%;
+	}
+	.schollenImg {
+		width: 100%;
+		height: 100%;
 	}
 </style>
