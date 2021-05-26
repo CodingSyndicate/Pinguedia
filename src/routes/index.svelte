@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import IceFloe from '$lib/IceFloe.svelte';
+</script>
+
+<div>
+	<IceFloe url="babys" numberOfPenguins={2} />
+	<IceFloe url="adolesence" numberOfPenguins={1} />
+	<IceFloe url="big" numberOfPenguins={3} />
+</div>
